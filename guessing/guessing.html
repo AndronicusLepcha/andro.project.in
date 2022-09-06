@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guessing Game Project</title>
+</head>
+<body>
+    <script>
+        
+        var theMagicnumber=777
+        var body=document.querySelector("body")
+        while(true){
+            var num=Number(prompt("Gues the magic number"))
+            if(num==theMagicnumber){
+                body.style.backgroundColor="red"
+                body.style.color="white"
+                body.innerHTML="<h2> YOU WIN</h2>"
+               
+                break;
+            }
+        }
+        
+
+    </script>
+    <body>
+        <h2></h2>
+        <img src="winner.webp" alt="winner" width:50%>
+    </body>
+</body>
+</html>
